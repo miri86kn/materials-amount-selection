@@ -16,7 +16,7 @@ Client side: React
 
 ## Getting Started
 
-    ### `git clone https://github.com/miri86kn/materials-amount-selection.git`
+   `git clone https://github.com/miri86kn/materials-amount-selection.git`
 
 MultiSliderRange can be found in components folder
 
@@ -24,9 +24,12 @@ MultiSliderRange can be found in components folder
 1. Make sure you have Node.js installed
 2. Dowload the code
 3. Install dependencies
-    ### `npm install`
+    
+    `npm install`
 4. Run the app in the development mode
-    ### `npm start`
-   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   
+   `npm start`
+  
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
  
   
