@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {useState} from 'react';
+import MultiSliderRange from './components/MultiSliderRange';
+
 
 function App() {
+
+  //Test input for the slider
+  const [materials, setMaterials] = useState([
+    { color:'red', startNumber:0, endNumber:30},
+    { color:'blue', startNumber:31, endNumber:70},
+    { color:'green', startNumber:71, endNumber:100}
+  ])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h5>Materials multirange slider test:</h5><br/>
+      
+      <div className="container">
+        <MultiSliderRange materials = {materials} />
+      </div>
+
+      
     </div>
   );
 }
