@@ -1,0 +1,83 @@
+.range-container{
+  width: 100%;
+  position: absolute;
+}
+
+.range-scalebar  {
+  height: 4px;
+  border: 1px solid #b4b4b4;
+  background-color:#e3e3e3;
+  border-radius: 3px;
+  width: 100%;
+  
+}
+
+.range-track  {
+  height: 4px;
+  border: 1px solid;
+  border-radius: 3px;
+  
+  margin-left: 8px;
+  position: absolute;
+  top: 0px;
+}
+
+
+
+.range-min-label{
+  color: #b4b4b4;
+  font-size: 13px;
+  float: left;
+}
+
+.range-max-label{
+  color: #b4b4b4;
+  font-size: 13px;
+  float: right;
+}
+.range-handles{
+  left: 0px;
+  top: -21px;
+  display: inline;
+  position: absolute;
+}
+
+.range-handle{
+  width: 16px;
+  position: relative;
+  z-index: 50;
+
+}
+.range-handle-label{
+  font-size: 9px;
+  z-index: 50;
+}
+.range-handle-element-top{
+  width: 0; 
+  height: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid;
+  cursor: grab;
+}
+.range-handle-element-bottom{
+  width: 0; 
+  height: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid;
+  border-top: 0px;
+  cursor: grab;
+  margin-top: 10px;
+}
+
+
+
+.range-track-label{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 8px;  
+  padding-left: 8px;
+  text-align: center;
+}

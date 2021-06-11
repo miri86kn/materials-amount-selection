@@ -1,24 +1,23 @@
 # Materials amount selection 
 
-This is an example for simple materials amount selection using custom MultiSliderRange component
-The MultiSliderRange component enables to create multiple threshold selections in the same slider.
+This is an example for simple materials amount selection using custom MaterialsSlider component
+with no third party components.
+The MaterialsSlider component enables to create multiple threshold selections in the same slider.
+The slider supports no overlapping between values as an option.
 
 Client side: React
 
-## Assumptions
 
-1. No overlap between all material min and max values 
-2. All material ranges add up to 100 
 
 ## Missing things
-1. Handeling MultiSliderRange width dynamically
+1. Handeling MaterialsSlider width dynamically
 2. Proper tests and more advanced input validations
 
 ## Getting Started
 
    `git clone https://github.com/miri86kn/materials-amount-selection.git`
 
-MultiSliderRange can be found in components folder
+MaterialsSlider can be found in components folder
 
 
 1. Make sure you have Node.js installed

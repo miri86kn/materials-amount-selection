@@ -1,27 +1,28 @@
-
 import './App.css';
-import {useState} from 'react';
-import MultiSliderRange from './components/MultiSliderRange';
+import {useState} from 'react'; 
+import MaterialsSlider from './components/MaterialsSlider';
 
 
 function App() {
 
   //Test input for the slider
   const [materials, setMaterials] = useState([
-    { color:'red', startNumber:0, endNumber:30},
-    { color:'blue', startNumber:31, endNumber:70},
-    { color:'green', startNumber:71, endNumber:100}
+    { color:'red', startNumber:6, endNumber:23, name: 'A'},
+    { color:'blue', startNumber:31, endNumber:64, name: 'B'},
+    { color:'green', startNumber:75, endNumber:100, name: 'C'}
   ])
 
   return (
     <div className="App">
-      <h5>Materials multirange slider test:</h5><br/>
-      
-      <div className="container">
-        <MultiSliderRange materials = {materials} />
-      </div>
+   
+      <br/>
+      <h5>Materials multirange slider test:</h5><br/> 
 
-      
+      <div className="container">
+        <MaterialsSlider materials = {materials} overlap = {false} />
+      </div>      
+    
+    
     </div>
   );
 }
