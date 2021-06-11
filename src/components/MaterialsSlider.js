@@ -212,7 +212,7 @@ const MaterialsSlider = ({materials, width, minRange, maxRange, overlap}) => {
 
                 <div className='range-labels'>
                     <label className='range-min-label'>{minRange}</label>
-                    <label className='range-max-label'>{maxRange}</label>
+                    <label className='range-max-label' style={{left: width}}>{maxRange}</label>
                 </div>
               
                 
